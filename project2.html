@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #nav{
+            height: 30px;
+            width: 98%;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-image: url(https://i.pinimg.com/736x/e7/99/fc/e799fc4b9890bb0029588fb7e9f916d2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #bgi{
+            height: 100vh;
+            width: 100%;
+            border: 2px solid black;
+             background-image: url('https://i.pinimg.com/736x/44/f2/c2/44f2c2b7f53a2f83d0ade6f95ea5a960.jpg'); 
+             background-repeat: no-repeat;
+             background-size: cover;
+             background-position: top;
+        }
+        #button1{
+            background-color:brown ;
+            color: white;
+            border-radius: 50px;
+            padding: 8px ;
+        }
+        #button1:hover{
+            font-size: 14px;
+            box-shadow: 5px 5px 15px black;
+            transition:  all 0.2s;
+        }
+        #text1{
+            color: white;
+            font-size: 50px;
+        }
+        #button2{
+            border-radius: 50px;
+            background-color: skyblue;
+            color: black;
+            padding: 15px 20px;
+            font-size: 20px;
+            border: none;
+        }
+        #button2:hover {
+            font-size: 23px;
+            background-color: burlywood;
+            box-shadow:5px 5px 20px rgb(226, 87, 87) ;
+            transition: 0.3s;
+        }
+        .home:hover , 
+        .media:hover
+        {
+            color:red;
+            transform: 0.5s;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <div  class="home">Home</div>
+        <div class="media">Media</div>
+        <form action="http://127.0.0.1:5501/webProject.html">
+            <button  id="button1">Free Course</button>
+        </form>
+    </nav>
+    <br>
+    <div id="bgi">
+        <p id="text1">
+            EASY FREE  <br> <br>WEBSITE BUILDER
+        </p>
+        <form action="https://youtu.be/Hvt0ebK9Da4?si=0Qy7BrGOPI9Ay3Yu">
+            <button id="button2" >Download Now</button>
+        </form>
+    </div>
+</body>
+</html>
